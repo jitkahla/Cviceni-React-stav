@@ -1,5 +1,9 @@
 # Cvičení: React Stav
 
+Náhled řešení na Netlify [cviceni-react-stav.netlify.app](https://cviceni-react-stav.netlify.app/).
+
+Kód ve složce `src`.
+
 ## Zadání
 
 1. Stáhni si zadání jako [ZIP](https://github.com/Czechitas-podklady-WEB/Cviceni-React-stav/archive/zadani.zip) nebo forkni [tento repozitář](https://github.com/Czechitas-podklady-WEB/Cviceni-React-stav) a kopii k sobě naklonuj.

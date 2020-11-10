@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './kasicka.css'
 import penizeUrl from './penize.svg'
 
@@ -7,13 +7,16 @@ import penizeUrl from './penize.svg'
 // Zadání 3: Počet peněz vypiš.
 
 const Kasicka = ({ pocatecniStav }) => {
+	const [stav, setStav] = useState(pocatecniStav)
+
 	return (
 		<div className="kasicka">
 			<h3>
 				<img src={penizeUrl} width={24} height={24} alt="" /> Peníze v kasičce:{' '}
-				0 Kč
+				{stav} Kč
 			</h3>
-			<button>přihodit pětikorunu</button> <button>vysypat</button>
+			<button onClick={() => setStav(stav + 5)}>přihodit pětikorunu</button>{' '}
+			<button onClick={() => setStav(0)}>vysypat</button>
 		</div>
 	)
 }

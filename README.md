@@ -1,8 +1,8 @@
 # Cvičení: React Stav
 
-Náhled řešení na Netlify [cviceni-react-stav.netlify.app](https://cviceni-react-stav.netlify.app/).
+Náhled výsledku na Netlify [cviceni-react-stav.netlify.app](https://cviceni-react-stav.netlify.app/).
 
-Kód ve složce `src`.
+Kód s řešením je ve složce `src`.
 
 ## Zadání
 

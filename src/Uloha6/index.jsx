@@ -27,8 +27,8 @@ export const Uloha6 = () => {
 
 	return (
 		<ul>
-			{ukoly.map((hodnota) => (
-				<Ukol nazev={hodnota} />
+			{ukoly.map((nazev) => (
+				<Ukol key={nazev} nazev={nazev} />
 			))}
 		</ul>
 	)
